@@ -1,0 +1,37 @@
+# ignore all files
+/*
+
+# not ignore gitignore
+!/.gitignore
+
+# not ignore readme
+!/readme.org
+
+# not ignore readme
+!/rapport.org
+!/rapport.html
+
+# not ignore build
+!/build
+/build/*
+!/build/Makefile
+
+# not ignore src
+!/src
+/src/*
+
+# not ignore src files
+!/src/*/
+/src/*/*
+
+# file in src folders
+!/src/*/*.c
+!/src/*/*.h
+
+# data repo
+!/data
+/data/*
+!/data/*.ttf
+
+# not ignore data/img
+!/data/*/
